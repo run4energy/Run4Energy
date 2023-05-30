@@ -16,6 +16,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		[SerializeField] float m_MoveSpeedMultiplier = 1f;
 		[SerializeField] float m_AnimSpeedMultiplier = 1f;
 		[SerializeField] float m_GroundCheckDistance = 0.1f;
+		[SerializeField] private AudioSource EnergySong;
+		[SerializeField] private AudioSource ObstacleSong;
 
 		public GameControlScript control;
 		Rigidbody m_Rigidbody;
@@ -235,10 +237,12 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if(other.CompareTag("Powerup") && m_IsGrounded)
 			{
 				control.PowerupCollected();
+				EnergySong.Play();
 			}
 			else if(other.CompareTag("Obstacle") && m_IsGrounded)
 			{
 				control.AlcoholCollected();
+				ObstacleSong.Play();
 			}
 			
 			Destroy(other.gameObject);
