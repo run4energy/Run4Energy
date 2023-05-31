@@ -11,7 +11,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: RoadRunner
+  productName: Run4Energy
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -142,7 +142,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   applicationIdentifier:
     Android: com.Company.ProductName
-    Standalone: unity.DefaultCompany.RoadRunner
+    Standalone: unity.DefaultCompany.Run4Energy
     Tizen: com.Company.ProductName
     iOS: com.Company.ProductName
     tvOS: com.Company.ProductName
@@ -523,14 +523,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: RoadRunner
+  metroPackageName: Run4Energy
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: RoadRunner
+  metroApplicationDescription: Run4Energy
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -605,7 +605,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 598db22a-7b1e-4785-8528-0063af9b248d
-  projectName: RoadRunner
+  projectName: Run4Energy
   organizationId: fathancer
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
